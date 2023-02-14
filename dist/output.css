@@ -873,6 +873,10 @@ video {
   flex-basis: 50%;
 }
 
+.basis-1 {
+  flex-basis: 0.25rem;
+}
+
 .origin-top-right {
   transform-origin: top right;
 }
@@ -1375,6 +1379,23 @@ video {
   line-height: 1.75rem;
 }
 
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[8px\] {
+  font-size: 8px;
+}
+
+.text-\[6px\] {
+  font-size: 6px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1486,6 +1507,14 @@ video {
 
 .text-\[9\] {
   color: 9;
+}
+
+.text-\[px\] {
+  color: px;
+}
+
+.text-\[\/px\] {
+  color: /px;
 }
 
 .underline {
@@ -1740,6 +1769,11 @@ video {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 
   .sm\:leading-6 {
